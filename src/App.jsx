@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./index.css";
 import socketIOClient from "socket.io-client";
 
-const socket = socketIOClient("https://chat-app-btj2.onrender.com/");
+const socket = socketIOClient("https://chat-app-btj2.onrender.com");
 
 function App() {
   const [name, setName] = useState("");
@@ -25,7 +25,7 @@ function App() {
 
     socket.emit("message", newMessage);
 
-    fetch("https://chat-app-btj2.onrender.com/", {
+    fetch("https://chat-app-live.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
