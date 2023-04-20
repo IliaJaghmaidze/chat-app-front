@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+.app {
+  width: 650px;
+  margin: 0 auto;
+  background: #ffebbb;
+  font-family: "Inter", sans-serif;
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 15px;
+  background: #ffebbb;
+}
+.input-field {
+  height: 30px;
+}
+.form-control {
+  height: 80px;
+}
+.btn {
+  width: 120px;
+  height: 30px;
+}
+.border {
+  border: 1px black solid;
+}
+
+.second-color {
+  background: #fdffcd;
+}
+.padding {
+  margin-left: 15px;
+}
